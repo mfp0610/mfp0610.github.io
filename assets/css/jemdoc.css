@@ -242,7 +242,6 @@ ol {
 li p, dd p {
 	margin-bottom: 0.3em;
 }
-
 ol ol {
 	list-style-type: lower-alpha;
 }
@@ -287,6 +286,7 @@ div.infoblock p {
 
 div.infoblock li p, div.infoblock dd p {
 	margin-bottom: 0.5em;
+	line-height: 10;
 }
 
 div.infoblock p + p {
