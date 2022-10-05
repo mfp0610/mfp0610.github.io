@@ -356,7 +356,7 @@ table + table {
 }
 
 tr.heading {
-    font-weight: bold;
+    font-weight: normal;
     border-bottom: 2px solid black;
 }
 
