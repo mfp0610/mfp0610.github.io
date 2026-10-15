@@ -48,12 +48,19 @@
 </td>
 <!-- RIGHT SIDE -->
 <td style="padding:2.5%;width:30%;max-width:30%">
-    <a href="assets/me.jpg">
-        <img style="width:100%;max-width:100%" alt="profile photo" src="assets/me.jpg" class="hoverZoomLink">
-    </a>
+    <button type="button" class="profile-preview" aria-label="View profile photo" onclick="document.getElementById('profile_dialog').showModal()">
+        <img alt="Fanpeng Meng" src="assets/me.jpg">
+    </button>
 </td>
 </tr>
 </tbody></table>
+<dialog id="profile_dialog" class="publication-gallery publication-gallery-single publication-gallery-profile" aria-labelledby="profile_gallery_title">
+    <form method="dialog"><button class="publication-gallery-close" aria-label="Close image viewer">&times;</button></form>
+    <h2 id="profile_gallery_title">Fanpeng Meng</h2>
+    <div class="publication-gallery-images">
+        <figure><img src="assets/me.jpg" alt="Fanpeng Meng"></figure>
+    </div>
+</dialog>
 
 <!-- PART-2: PUBLICATION-->
 <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
@@ -68,9 +75,9 @@
 <!--PUB: [ECCV24] DreamDissector-->
 <tr>
 <td style="padding:20px;width:30%;vertical-align:middle">
-    <a href="images/dreamdissector/teaser.jpg" target="_blank" rel="noopener" aria-label="View the full DreamDissector teaser image">
+    <button type="button" class="publication-preview" aria-label="View the full DreamDissector teaser image" onclick="document.getElementById('dreamdissector_dialog').showModal()">
         <img class="publication-teaser" src="images/dreamdissector/teaser.jpg" width="200" height="120" alt="DreamDissector teaser showing independently editable 3D objects">
-    </a>
+    </button>
 </td>
 <td style="padding:20px;width:70%;vertical-align:middle">
     <span class="papertitle">DreamDissector: Learning Disentangled Text-to-3D Generation from 2D Diffusion Priors</span>
@@ -108,17 +115,22 @@
 </tr>
 
 </tbody></table>
+<dialog id="dreamdissector_dialog" class="publication-gallery publication-gallery-single" aria-labelledby="dreamdissector_gallery_title">
+    <form method="dialog"><button class="publication-gallery-close" aria-label="Close image viewer">&times;</button></form>
+    <h2 id="dreamdissector_gallery_title">DreamDissector</h2>
+    <div class="publication-gallery-images">
+        <figure><img src="images/dreamdissector/teaser.jpg" alt="DreamDissector teaser showing independently editable 3D objects"></figure>
+    </div>
+</dialog>
 <dialog id="cvpr_3dobjnav_dialog" class="publication-gallery" aria-labelledby="cvpr_3dobjnav_gallery_title">
     <form method="dialog"><button class="publication-gallery-close" aria-label="Close image viewer">&times;</button></form>
     <h2 id="cvpr_3dobjnav_gallery_title">3D-Aware Object Goal Navigation</h2>
     <div class="publication-gallery-images">
         <figure>
             <img src="images/cvpr23_3dobjnav/3dobjnav.png" alt="Static figure for 3D-Aware Object Goal Navigation">
-            <figcaption>Static image</figcaption>
         </figure>
         <figure>
             <img src="images/cvpr23_3dobjnav/3dobjnav.gif" alt="Animated demonstration of 3D-Aware Object Goal Navigation">
-            <figcaption>Animation</figcaption>
         </figure>
     </div>
 </dialog>

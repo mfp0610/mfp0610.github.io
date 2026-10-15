@@ -109,15 +109,29 @@ h2 {
   font-size: 32px;
 }
 
+.profile-preview,
 .publication-preview {
-  position: relative;
   display: block;
-  width: 200px;
-  height: 120px;
   padding: 0;
   border: 0;
   background: transparent;
   cursor: zoom-in;
+}
+
+.profile-preview {
+  width: 100%;
+}
+
+.profile-preview img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.publication-preview {
+  position: relative;
+  width: 200px;
+  height: 120px;
 }
 
 .publication-teaser {
@@ -147,6 +161,7 @@ h2 {
   opacity: 1;
 }
 
+.profile-preview:focus-visible,
 .publication-preview:focus-visible {
   outline: 2px solid #1772d0;
   outline-offset: 3px;
@@ -181,6 +196,14 @@ h2 {
   margin-top: 20px;
 }
 
+.publication-gallery-single .publication-gallery-images {
+  grid-template-columns: 1fr;
+}
+
+.publication-gallery-profile {
+  width: min(720px, 92vw);
+}
+
 .publication-gallery figure {
   margin: 0;
 }
@@ -191,11 +214,6 @@ h2 {
   height: auto;
   max-height: 65vh;
   object-fit: contain;
-}
-
-.publication-gallery figcaption {
-  margin-top: 8px;
-  text-align: center;
 }
 
 @media (max-width: 700px) {
