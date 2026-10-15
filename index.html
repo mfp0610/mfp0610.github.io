@@ -54,7 +54,7 @@
 </td>
 </tr>
 </tbody></table>
-<dialog id="profile_dialog" class="publication-gallery publication-gallery-single publication-gallery-profile" aria-labelledby="profile_gallery_title">
+<dialog id="profile_dialog" class="publication-gallery publication-gallery-single publication-gallery-profile" aria-labelledby="profile_gallery_title" onclick="if (event.target === this) this.close()">
     <form method="dialog"><button class="publication-gallery-close" aria-label="Close image viewer">&times;</button></form>
     <h2 id="profile_gallery_title">Fanpeng Meng</h2>
     <div class="publication-gallery-images">
@@ -115,14 +115,14 @@
 </tr>
 
 </tbody></table>
-<dialog id="dreamdissector_dialog" class="publication-gallery publication-gallery-single" aria-labelledby="dreamdissector_gallery_title">
+<dialog id="dreamdissector_dialog" class="publication-gallery publication-gallery-single" aria-labelledby="dreamdissector_gallery_title" onclick="if (event.target === this) this.close()">
     <form method="dialog"><button class="publication-gallery-close" aria-label="Close image viewer">&times;</button></form>
     <h2 id="dreamdissector_gallery_title">DreamDissector</h2>
     <div class="publication-gallery-images">
         <figure><img src="images/dreamdissector/teaser.jpg" alt="DreamDissector teaser showing independently editable 3D objects"></figure>
     </div>
 </dialog>
-<dialog id="cvpr_3dobjnav_dialog" class="publication-gallery" aria-labelledby="cvpr_3dobjnav_gallery_title">
+<dialog id="cvpr_3dobjnav_dialog" class="publication-gallery" aria-labelledby="cvpr_3dobjnav_gallery_title" onclick="if (event.target === this) this.close()">
     <form method="dialog"><button class="publication-gallery-close" aria-label="Close image viewer">&times;</button></form>
     <h2 id="cvpr_3dobjnav_gallery_title">3D-Aware Object Goal Navigation</h2>
     <div class="publication-gallery-images">
