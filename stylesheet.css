@@ -133,3 +133,9 @@ h2 {
 span.highlight {
   background-color: #ffffd0;
 }
+
+@media (min-width: 900px) {
+  .intro-school {
+    white-space: nowrap;
+  }
+}
