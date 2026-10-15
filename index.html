@@ -66,23 +66,12 @@
 </td></tr>
 
 <!--PUB: [CVPR23] 3D-ObjNav-->
-<tr onmouseout="cvpr_3dobjectnav_stop()" onmouseover="cvpr_3dobjectnav_start()" >
+<tr>
 <td style="padding:20px;width:30%;vertical-align:middle">
-    <div class="one">
-        <div class="two" id='cvpr_3dobjectnav_image'>
-            <img src="images/cvpr23_3dobjnav/3dobjnav.gif" width="200" height="120">
-        </div>
-        <img src='images/cvpr23_3dobjnav/3dobjnav.png' width="200" height="120">
-    </div>
-    <script type="text/javascript">
-        function cvpr_3dobjectnav_start() {
-            document.getElementById('cvpr_3dobjectnav_image').style.opacity = "1";
-        }
-        function cvpr_3dobjectnav_stop() {
-            document.getElementById('cvpr_3dobjectnav_image').style.opacity = "0";
-        }
-        cvpr_3dobjectnav_stop()
-    </script>
+    <button type="button" class="publication-preview" aria-label="View the static image and animation for 3D-Aware Object Goal Navigation" onclick="document.getElementById('cvpr_3dobjnav_dialog').showModal()">
+        <img src="images/cvpr23_3dobjnav/3dobjnav.png" width="200" height="120" alt="3D-Aware Object Goal Navigation static preview">
+        <img class="publication-preview-animated" src="images/cvpr23_3dobjnav/3dobjnav.gif" width="200" height="120" alt="" aria-hidden="true">
+    </button>
 </td>
 <td style="padding:20px;width:70%;vertical-align:middle">
     <span class="papertitle">
@@ -102,6 +91,20 @@
 </tr>
 
 </tbody></table>
+<dialog id="cvpr_3dobjnav_dialog" class="publication-gallery" aria-labelledby="cvpr_3dobjnav_gallery_title">
+    <form method="dialog"><button class="publication-gallery-close" aria-label="Close image viewer">&times;</button></form>
+    <h2 id="cvpr_3dobjnav_gallery_title">3D-Aware Object Goal Navigation</h2>
+    <div class="publication-gallery-images">
+        <figure>
+            <img src="images/cvpr23_3dobjnav/3dobjnav.png" alt="Static figure for 3D-Aware Object Goal Navigation">
+            <figcaption>Static image</figcaption>
+        </figure>
+        <figure>
+            <img src="images/cvpr23_3dobjnav/3dobjnav.gif" alt="Animated demonstration of 3D-Aware Object Goal Navigation">
+            <figcaption>Animation</figcaption>
+        </figure>
+    </div>
+</dialog>
 
 <!-- PART-3: CAREER -->
 <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20"><tbody>
