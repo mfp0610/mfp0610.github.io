@@ -5,7 +5,7 @@
     <title>Fanpeng Meng</title>
     <meta name="author" content="Fanpeng Meng">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="stylesheet.css?v=20261023-natural-wrap">
+    <link rel="stylesheet" type="text/css" href="stylesheet.css?v=20261024-white-previews-v2">
     <!--<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🌐</text></svg>">-->
 </head>
 
@@ -23,21 +23,20 @@
     <p class="name" style="text-align: center;">Fanpeng Meng | 孟繁鹏</p>
     <!-- Biography -->
     <p>	
-        I am an Engineer at <a href="https://www.huawei.com/en/" target="_blank" rel="external"><b>Huawei</b></a>, working with <a href="https://jaminfong.cn/" target="_blank" rel="external"><b>Dr. Jiemin Fang</b></a> and <a href="https://www.qitian1987.com/" target="_blank" rel="external"><b>Dr. Qi Tian</b></a>.
+        I am an Engineer at <a href="https://www.huawei.com/en/" target="_blank" rel="external"><strong>Huawei Inc.</strong></a>, working under the leadership of <a href="https://jaminfong.cn/" target="_blank" rel="external"><strong>Dr. Jiemin Fang</strong></a> &amp; <a href="https://www.qitian1987.com/" target="_blank" rel="external"><strong>Dr. Qi Tian</strong></a>.
     </p>
     <p>
-        Prior to that, I received my M.Phil. in Computer &amp; Information Engineering from
-        <a class="intro-school" href="https://www.cuhk.edu.cn/en" target="_blank" rel="external"><b>The Chinese University of Hong Kong (Shenzhen)</b></a>, advised by
+        Prior to that, I received an M.Phil. in Computer &amp; Information Engineering from
+        <a class="intro-school" href="https://www.cuhk.edu.cn/en" target="_blank" rel="external">The Chinese University of Hong Kong (Shenzhen)</a>, advised by
         <a href="https://sse.cuhk.edu.cn/en/faculty/hanxiaoguang" target="_blank" rel="external">Prof. Xiaoguang Han</a>.
         Before that, I obtained a B.Eng. from
-        <a class="intro-school" href="http://english.hust.edu.cn/"  target="_blank" ><b>Huazhong University of Science & Technology</b></a>.
-        Also, I am honored to have worked with 
-        <a href="https://hughw19.github.io/" target="_blank" rel="external">Prof. He Wang</a>
-        from <a class="intro-school" href="https://english.pku.edu.cn/" target="_blank" rel="external"><b>Peking University</b></a>.
+        <a class="intro-school" href="http://english.hust.edu.cn/"  target="_blank" >Huazhong University of Science & Technology</a>,
+        and once worked with <a href="https://hughw19.github.io/" target="_blank" rel="external">Prof. He Wang</a>
+        from <a class="intro-school" href="https://english.pku.edu.cn/" target="_blank" rel="external">Peking University</a>.
     </p>
     <p>
         <b>Research Interests:</b> My research focuses on
-        <b style="color: black;">3D AIGC</b> and <b style="color: black;">World Models</b>.
+        <b style="color: black;">3D AIGC</b> &amp; <b style="color: black;">World Models</b>. I aspire to build high-quality, practical, and efficient 3D digital worlds for the AGI era.
     </p>
     <!-- Link -->
     <p style="text-align:center">
@@ -62,10 +61,31 @@
     </div>
 </dialog>
 
+<!-- NEWS: newest first; entries before joining Huawei are in news_archive. -->
+<section class="news-section" aria-labelledby="news_title">
+    <div class="research-heading">
+        <h2 id="news_title">News</h2>
+        <button type="button" class="research-toggle" aria-expanded="false" aria-controls="news_archive" onclick="const archive = document.getElementById('news_archive'); archive.hidden = !archive.hidden; this.setAttribute('aria-expanded', String(!archive.hidden)); this.textContent = archive.hidden ? 'Explore all' : 'Show less';">Explore all</button>
+    </div>
+    <ul class="news-list">
+        <li><time datetime="2026-10">2026-10:</time> Our work <a href="https://supra-3d.github.io/supratex/" target="_blank" rel="noopener noreferrer"><strong>SUPRA-Tex</strong></a> is now open source! It generates relightable 3D assets from a single image while preserving fine lettering, patterns, and material details. <a href="https://arxiv.org/abs/2610.22352" target="_blank" rel="noopener noreferrer">Paper</a> / <a href="https://github.com/Supra-3D/supra-tex" target="_blank" rel="noopener noreferrer">Code</a>.</li>
+        <li><time datetime="2025-11">2025-11:</time> I joined <a href="https://www.huawei.com/en/" target="_blank" rel="noopener noreferrer"><strong>Huawei Inc.</strong></a> as an Engineer, working under the leadership of <a href="https://jaminfong.cn/" target="_blank" rel="noopener noreferrer">Dr. Jiemin Fang</a> &amp; <a href="https://www.qitian1987.com/" target="_blank" rel="noopener noreferrer">Dr. Qi Tian</a>.</li>
+    </ul>
+    <div id="news_archive" hidden>
+        <ul class="news-list news-list-archive">
+            <li><time datetime="2025-06">2025-06:</time> I received an M.Phil. from <a href="https://www.cuhk.edu.cn/en" target="_blank" rel="noopener noreferrer">The Chinese University of Hong Kong (Shenzhen)</a>, advised by <a href="https://sse.cuhk.edu.cn/en/faculty/hanxiaoguang" target="_blank" rel="noopener noreferrer">Prof. Xiaoguang Han</a>.</li>
+            <li><time datetime="2022-03">2022-03:</time> I joined <a href="https://english.pku.edu.cn/" target="_blank" rel="noopener noreferrer">Peking University</a> as a Research Intern, supervised by <a href="https://jzhzhang.github.io/" target="_blank" rel="noopener noreferrer">Dr. Jiazhao Zhang</a> &amp; <a href="https://hughw19.github.io/" target="_blank" rel="noopener noreferrer">Prof. He Wang</a>.</li>
+        </ul>
+    </div>
+</section>
+
 <!-- PART-2: PUBLICATION-->
 <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
 <tr><td style="padding:20px;width:100%;vertical-align:middle" colspan="2">
-    <h2>Research</h2>
+    <div class="research-heading">
+        <h2>Research</h2>
+        <button type="button" class="research-toggle" aria-expanded="false" aria-controls="research_archive" onclick="const archive = document.getElementById('research_archive'); archive.hidden = !archive.hidden; this.setAttribute('aria-expanded', String(!archive.hidden)); this.textContent = archive.hidden ? 'Explore all' : 'Show less';">Explore all</button>
+    </div>
     <p>
         [*] equal contribution; [<sup>†</sup>] corresponding author(s); <br>
         Representative papers are <span class="highlight">highlighted</span>. 
@@ -76,7 +96,7 @@
 <tr class="publication-highlight">
 <td style="padding:20px;width:30%;vertical-align:middle">
     <button type="button" class="publication-preview publication-preview-video" aria-label="View the SUPRA-Tex animation" onclick="document.getElementById('supratex_dialog').showModal()">
-        <img src="images/supratex/preview.gif" width="200" height="120" alt="SUPRA-Tex preserves fine lettering and texture on a generated 3D aircraft">
+        <img src="images/supratex/preview.gif?v=20261024-featured-details" width="200" height="120" alt="SUPRA-Tex animation showing aircraft lettering, bottle-label close-ups, Chinese cinema signage, and relightable porcelain on a consistent dark background">
     </button>
 </td>
 <td style="padding:20px;width:70%;vertical-align:middle">
@@ -95,7 +115,7 @@
 <tr>
 <td style="padding:20px;width:30%;vertical-align:middle">
     <button type="button" class="publication-preview publication-preview-video" aria-label="View the Gate3DGen animation" onclick="document.getElementById('gate3dgen_dialog').showModal()">
-        <img src="images/gate3dgen/preview.gif" width="200" height="120" alt="Gate3DGen comparison of direct and gated 3D generation from a real-world photograph">
+        <img src="images/gate3dgen/preview.gif?v=20261024-corner-inputs" width="200" height="120" alt="Direct 3D and Gate3DGen results with their degraded and purified input images inset at the upper left of each panel">
     </button>
 </td>
 <td style="padding:20px;width:70%;vertical-align:middle">
@@ -106,14 +126,18 @@
     <a href="https://supra-3d.github.io/gate3dgen/" target="_blank" rel="noopener noreferrer">Webpage</a> /
     <a href="https://arxiv.org/abs/2610.31649" target="_blank" rel="noopener noreferrer">Paper</a> /
     <a href="https://github.com/Supra-3D/gate3dgen" target="_blank" rel="noopener noreferrer">Code</a>
-    <p>Selectively purifying degraded real-world images for existing 3D generators while preserving object identity and visual details.</p>
+    <p>Selectively purifying degraded real-world images for existing 3D generators while preserving object identity and visual details. Providing higher-quality inputs for 3D generation.</p>
 </td>
 </tr>
+
+</tbody></table>
+<div id="research_archive" class="research-archive" hidden>
+    <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
 
 <!--PUB: [ECCV24] DreamDissector-->
 <tr>
 <td style="padding:20px;width:30%;vertical-align:middle">
-    <button type="button" class="publication-preview publication-preview-video" aria-label="View the DreamDissector animation" onclick="document.getElementById('dreamdissector_dialog').showModal()">
+    <button type="button" class="publication-preview publication-preview-video publication-preview-light" aria-label="View the DreamDissector animation" onclick="document.getElementById('dreamdissector_dialog').showModal()">
         <img src="images/dreamdissector/preview.gif" width="200" height="120" alt="DreamDissector animation showing an astronaut and kangaroo disentangled into independently editable 3D objects">
     </button>
 </td>
@@ -122,16 +146,16 @@
     <br>
         Zizheng Yan, Jiapeng Zhou, <strong>Fanpeng Meng</strong>, Yushuang Wu, Lingteng Qiu, Zisheng Ye, Shuguang Cui, Guanying Chen, Xiaoguang Han<sup>†</sup>
     <br><em>ECCV, 2024</em><br>
-    <a href="https://www.ecva.net/papers/eccv_2024/papers_ECCV/html/1847_ECCV_2024_paper.php" target="_blank" rel="external">Paper</a>
-    <p>Disentangling text-generated 3D scenes into independent textured meshes for object-level editing.</p>
+    <a href="https://arxiv.org/abs/2407.16260" target="_blank" rel="external">Paper</a>
+    <p>Disentangling text-generated 3D scenes into independent textured meshes.</p>
 </td>
 </tr>
 
 <!--PUB: [CVPR23] 3D-ObjNav-->
 <tr>
 <td style="padding:20px;width:30%;vertical-align:middle">
-    <button type="button" class="publication-preview" aria-label="View the animation for 3D-Aware Object Goal Navigation" onclick="document.getElementById('cvpr_3dobjnav_dialog').showModal()">
-        <img src="images/cvpr23_3dobjnav/3dobjnav.gif" width="200" height="120" alt="Animated demonstration of 3D-Aware Object Goal Navigation">
+    <button type="button" class="publication-preview publication-preview-video publication-preview-light" aria-label="View the animation for 3D-Aware Object Goal Navigation" onclick="document.getElementById('cvpr_3dobjnav_dialog').showModal()">
+        <img src="images/cvpr23_3dobjnav/3dobjnav.gif?v=20261024-method-1s-no-border" width="200" height="120" alt="3D-aware navigation method overview: online 3D mapping, simultaneous exploration and identification, and local planning, followed by a navigation demonstration">
     </button>
 </td>
 <td style="padding:20px;width:70%;vertical-align:middle">
@@ -141,7 +165,7 @@
         Jiazhao Zhang*, Liu Dai*, <strong>Fanpeng Meng</strong>, Qingnan Fan, Xuelin Chen, Kai Xu, He Wang<sup>†</sup>
     <br><em>CVPR, 2023</em><br>
     <a href="https://pku-epic.github.io/3D-Aware-ObjectNav/">Webpage</a> /
-    <a href="https://openaccess.thecvf.com/content/CVPR2023/html/Zhang_3D-Aware_Object_Goal_Navigation_via_Simultaneous_Exploration_and_Identification_CVPR_2023_paper.html">Paper</a> /
+    <a href="https://arxiv.org/abs/2212.00338">Paper</a> /
     <a href="https://github.com/jzhzhang/3DAwareNav">Code</a>
     <p></p>
     <p>
@@ -152,18 +176,19 @@
 </tr>
 
 </tbody></table>
+</div>
 <dialog id="supratex_dialog" class="publication-gallery publication-gallery-single" aria-labelledby="supratex_gallery_title" onclick="if (event.target === this) this.close()">
     <form method="dialog"><button class="publication-gallery-close" aria-label="Close image viewer">&times;</button></form>
     <h2 id="supratex_gallery_title">SUPRA-Tex</h2>
     <div class="publication-gallery-images">
-        <figure><img src="images/supratex/preview.gif" alt="SUPRA-Tex animation showing detailed aircraft textures" loading="lazy"></figure>
+        <figure><img src="images/supratex/preview.gif?v=20261024-featured-details" alt="Four SUPRA-Tex examples with enlarged lettering and material details, input references, and a consistent dark background" loading="lazy"></figure>
     </div>
 </dialog>
 <dialog id="gate3dgen_dialog" class="publication-gallery publication-gallery-single" aria-labelledby="gate3dgen_gallery_title" onclick="if (event.target === this) this.close()">
     <form method="dialog"><button class="publication-gallery-close" aria-label="Close image viewer">&times;</button></form>
     <h2 id="gate3dgen_gallery_title">Gate3DGen</h2>
     <div class="publication-gallery-images">
-        <figure><img src="images/gate3dgen/preview.gif" alt="Gate3DGen animation comparing direct and gated 3D generation" loading="lazy"></figure>
+        <figure><img src="images/gate3dgen/preview.gif?v=20261024-corner-inputs" alt="Four Gate3DGen comparisons with enlarged 3D results and corresponding input images in the upper-left corners" loading="lazy"></figure>
     </div>
 </dialog>
 <dialog id="dreamdissector_dialog" class="publication-gallery publication-gallery-single" aria-labelledby="dreamdissector_gallery_title" onclick="if (event.target === this) this.close()">
@@ -178,7 +203,7 @@
     <h2 id="cvpr_3dobjnav_gallery_title">3D-Aware Object Goal Navigation</h2>
     <div class="publication-gallery-images">
         <figure>
-            <img src="images/cvpr23_3dobjnav/3dobjnav.gif" alt="Animated demonstration of 3D-Aware Object Goal Navigation">
+            <img src="images/cvpr23_3dobjnav/3dobjnav.gif?v=20261024-method-1s-no-border" alt="3D-aware navigation method overview: online 3D mapping, simultaneous exploration and identification, and local planning, followed by a navigation demonstration">
         </figure>
     </div>
 </dialog>
@@ -189,8 +214,8 @@
     <h2>Career</h2>
     <ul>
         <li style="padding-top: 10px;">
-            Engineer, <a href="https://consumer.huawei.com/en/" target="_blank" rel="external">Consumer Business Group (CBG)</a>, <a href="https://www.huawei.com/en/" target="_blank" rel="external"><b>Huawei</b></a><br>
-            Leader: <a href="https://jaminfong.cn/" target="_blank" rel="external">Dr. Jiemin Fang</a> and
+            Engineer, <a href="https://consumer.huawei.com/en/" target="_blank" rel="external">Consumer Business Group (CBG)</a>, <a href="https://www.huawei.com/en/" target="_blank" rel="external"><b>Huawei Inc.</b></a><br>
+            Leader: <a href="https://jaminfong.cn/" target="_blank" rel="external">Dr. Jiemin Fang</a> &amp;
             <a href="https://www.qitian1987.com/" target="_blank" rel="external">Dr. Qi Tian</a><br>
             2025.11 - Present, Shanghai, China
         </li>

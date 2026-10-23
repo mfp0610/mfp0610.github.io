@@ -1,0 +1,13 @@
+Official project: https://pku-epic.github.io/3D-Aware-ObjectNav/
+Official video: https://www.youtube.com/watch?v=-50kIfOYTBM
+Method figure: https://pku-epic.github.io/3D-Aware-ObjectNav/images/overview.png
+
+Method introduction: three cropped method diagrams from the official video, at approximately 81 s, 109 s, and 135 s. These retain the original progressive highlights and add concise English captions.
+0-1 s: Build a 3D semantic map. Fuse RGB-D observations online.
+1-2 s: Explore and identify simultaneously. Corner-guided exploration and category-aware identification.
+2-3 s: Plan the next move. Navigate to the target; otherwise explore a corner.
+After 3 s: original homepage navigation animation, preserving all 144 frames and their original timing (12.01 s), centered on a white 640 x 360 canvas.
+
+Output: 3dobjnav.gif, 640 x 360, 147 frames, 15.01 seconds, infinite loop.
+Homepage thumbnail and enlarged viewer use the same GIF.
+The original static teaser remains in 3dobjnav.png and is not displayed on the page.

@@ -1,0 +1,12 @@
+Source: https://supra-3d.github.io/gate3dgen/assets/Gate3DGen%20Demo%20Video.mp4
+Two method panels, using synchronized crops from the same source frames.
+Left: degraded input in the upper-left corner with the enlarged direct 3D result.
+Right: purified input in the upper-left corner with the enlarged Gate3DGen result.
+Inputs retain the source video's degradation annotations.
+Motion-blur example crops the empty upper area; both 3D results use the same enlarged scale and placement.
+Handheld object: 44.2 - 48.3 seconds
+Color cast: 58.0 - 63.0 seconds
+Motion blur: 74.0 - 77.6 seconds
+Occlusion: 49.0 - 53.5 seconds
+Output: 768 x 432, 10 fps, 172 frames, 17.2 seconds, infinite loop.
+Homepage thumbnail and enlarged viewer use the same GIF.

@@ -1,0 +1,23 @@
+SUPRA-Tex animated homepage preview
+Official project: https://supra-3d.github.io/supratex/
+
+Aircraft source:
+https://supra-3d.github.io/supratex/assets/hero-story-99-hd.mp4
+0.0-3.0 s: reference image and transition to 3D.
+8.5-17.5 s: aircraft fine-lettering comparison with Meshy 7.1.
+
+Detail source:
+https://supra-3d.github.io/supratex/assets/texturing/multi-case.mp4
+0.0-4.2 s: full bottle and enlarged front label, slowed to 6.5 s.
+5.5-8.8 s: rear lettering and turntable, played over 3.5 s.
+35.0-38.5 s: cinema building turntable, isolated from the multi-case grid.
+15.8-16.6 s: cinema signage close-up, slowed to 4.5 s. The original input detail remains an inset; the 3D result is enlarged.
+29.0-33.4 s: blue-and-white porcelain under changing illumination, played over 6 s.
+
+Editing:
+Original result pixels are cropped and resized. Only near-white background pixels connected to the crop border are replaced with RGB (13, 15, 16), matching the aircraft background. Enclosed light details, labels, characters, and porcelain are retained. Reference insets keep their source backgrounds. Typography and captions are placed on the dark canvas.
+Earlier small-object gallery orbits are replaced by these larger detail-focused examples.
+
+Output: preview.gif, 768 x 432, 10 fps, 359 frames, 35.9 seconds, infinite loop, 9,941,603 bytes.
+The homepage thumbnail and enlarged image viewer use the same GIF.
+Static source images remain stored but are not displayed separately on the page.
