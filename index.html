@@ -5,12 +5,12 @@
     <title>Fanpeng Meng</title>
     <meta name="author" content="Fanpeng Meng">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="stylesheet.css?v=20261015-gallery-layout">
+    <link rel="stylesheet" type="text/css" href="stylesheet.css?v=20261023-natural-wrap">
     <!--<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🌐</text></svg>">-->
 </head>
 
 <body>
-<table style="width:100%;max-width:900px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+<table style="width:100%;max-width:800px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
 <tr style="padding:0px">
 <td style="padding:0px">
 
@@ -23,7 +23,7 @@
     <p class="name" style="text-align: center;">Fanpeng Meng | 孟繁鹏</p>
     <!-- Biography -->
     <p>	
-        I am an Engineer at <a href="https://www.huawei.com/en/" target="_blank" rel="external"><b>Huawei</b></a>, working with <a href="https://jaminfong.cn/" target="_blank" rel="external">Dr. Jiemin Fang</a> and <a href="https://www.qitian1987.com/" target="_blank" rel="external">Dr. Qi Tian</a>.
+        I am an Engineer at <a href="https://www.huawei.com/en/" target="_blank" rel="external"><b>Huawei</b></a>, working with <a href="https://jaminfong.cn/" target="_blank" rel="external"><b>Dr. Jiemin Fang</b></a> and <a href="https://www.qitian1987.com/" target="_blank" rel="external"><b>Dr. Qi Tian</b></a>.
     </p>
     <p>
         Prior to that, I received my M.Phil. in Computer &amp; Information Engineering from
@@ -72,11 +72,49 @@
     </p>
 </td></tr>
 
+<!--PUB: [arXiv26] SUPRA-Tex-->
+<tr class="publication-highlight">
+<td style="padding:20px;width:30%;vertical-align:middle">
+    <button type="button" class="publication-preview publication-preview-video" aria-label="View the SUPRA-Tex animation" onclick="document.getElementById('supratex_dialog').showModal()">
+        <img src="images/supratex/preview.gif" width="200" height="120" alt="SUPRA-Tex preserves fine lettering and texture on a generated 3D aircraft">
+    </button>
+</td>
+<td style="padding:20px;width:70%;vertical-align:middle">
+    <span class="papertitle">SUPRA-Tex: 3D Generation with Super-Aligned Texture</span>
+    <br>
+        Chen Yang*, Jiemin Fang*<sup>†</sup>, <strong>Fanpeng Meng*</strong>, Zihao Huang, Jichen Pang, Guanjun Wu, Zhikuan Bao, Qi Tian<sup>†</sup>
+    <br><em>arXiv, 2026</em><br>
+    <a href="https://supra-3d.github.io/supratex/" target="_blank" rel="noopener noreferrer">Webpage</a> /
+    <a href="https://arxiv.org/abs/2610.22352" target="_blank" rel="noopener noreferrer">Paper</a> /
+    <a href="https://github.com/Supra-3D/supra-tex" target="_blank" rel="noopener noreferrer">Code</a>
+    <p>Generating relightable 3D assets with reference-aligned textures that preserve fine lettering, patterns, and material details.</p>
+</td>
+</tr>
+
+<!--PUB: [arXiv26] Gate3DGen-->
+<tr>
+<td style="padding:20px;width:30%;vertical-align:middle">
+    <button type="button" class="publication-preview publication-preview-video" aria-label="View the Gate3DGen animation" onclick="document.getElementById('gate3dgen_dialog').showModal()">
+        <img src="images/gate3dgen/preview.gif" width="200" height="120" alt="Gate3DGen comparison of direct and gated 3D generation from a real-world photograph">
+    </button>
+</td>
+<td style="padding:20px;width:70%;vertical-align:middle">
+    <span class="papertitle">Gate3DGen: A Pre-processing Model that Selectively Purifies Real-World Images for 3D Generation</span>
+    <br>
+        Xiaolin Li*, Zihao Huang*, <strong>Fanpeng Meng</strong>, Chen Yang, Guanjun Wu, Kai Zhang<sup>†</sup>, Jiemin Fang<sup>†</sup>, Qi Tian<sup>†</sup>
+    <br><em>arXiv, 2026</em><br>
+    <a href="https://supra-3d.github.io/gate3dgen/" target="_blank" rel="noopener noreferrer">Webpage</a> /
+    <a href="https://arxiv.org/abs/2610.31649" target="_blank" rel="noopener noreferrer">Paper</a> /
+    <a href="https://github.com/Supra-3D/gate3dgen" target="_blank" rel="noopener noreferrer">Code</a>
+    <p>Selectively purifying degraded real-world images for existing 3D generators while preserving object identity and visual details.</p>
+</td>
+</tr>
+
 <!--PUB: [ECCV24] DreamDissector-->
 <tr>
 <td style="padding:20px;width:30%;vertical-align:middle">
-    <button type="button" class="publication-preview" aria-label="View the full DreamDissector teaser image" onclick="document.getElementById('dreamdissector_dialog').showModal()">
-        <img class="publication-teaser" src="images/dreamdissector/teaser.jpg" width="200" height="120" alt="DreamDissector teaser showing independently editable 3D objects">
+    <button type="button" class="publication-preview publication-preview-video" aria-label="View the DreamDissector animation" onclick="document.getElementById('dreamdissector_dialog').showModal()">
+        <img src="images/dreamdissector/preview.gif" width="200" height="120" alt="DreamDissector animation showing an astronaut and kangaroo disentangled into independently editable 3D objects">
     </button>
 </td>
 <td style="padding:20px;width:70%;vertical-align:middle">
@@ -92,9 +130,8 @@
 <!--PUB: [CVPR23] 3D-ObjNav-->
 <tr>
 <td style="padding:20px;width:30%;vertical-align:middle">
-    <button type="button" class="publication-preview" aria-label="View the static image and animation for 3D-Aware Object Goal Navigation" onclick="document.getElementById('cvpr_3dobjnav_dialog').showModal()">
-        <img src="images/cvpr23_3dobjnav/3dobjnav.png" width="200" height="120" alt="3D-Aware Object Goal Navigation static preview">
-        <img class="publication-preview-animated" src="images/cvpr23_3dobjnav/3dobjnav.gif" width="200" height="120" alt="" aria-hidden="true">
+    <button type="button" class="publication-preview" aria-label="View the animation for 3D-Aware Object Goal Navigation" onclick="document.getElementById('cvpr_3dobjnav_dialog').showModal()">
+        <img src="images/cvpr23_3dobjnav/3dobjnav.gif" width="200" height="120" alt="Animated demonstration of 3D-Aware Object Goal Navigation">
     </button>
 </td>
 <td style="padding:20px;width:70%;vertical-align:middle">
@@ -115,20 +152,31 @@
 </tr>
 
 </tbody></table>
+<dialog id="supratex_dialog" class="publication-gallery publication-gallery-single" aria-labelledby="supratex_gallery_title" onclick="if (event.target === this) this.close()">
+    <form method="dialog"><button class="publication-gallery-close" aria-label="Close image viewer">&times;</button></form>
+    <h2 id="supratex_gallery_title">SUPRA-Tex</h2>
+    <div class="publication-gallery-images">
+        <figure><img src="images/supratex/preview.gif" alt="SUPRA-Tex animation showing detailed aircraft textures" loading="lazy"></figure>
+    </div>
+</dialog>
+<dialog id="gate3dgen_dialog" class="publication-gallery publication-gallery-single" aria-labelledby="gate3dgen_gallery_title" onclick="if (event.target === this) this.close()">
+    <form method="dialog"><button class="publication-gallery-close" aria-label="Close image viewer">&times;</button></form>
+    <h2 id="gate3dgen_gallery_title">Gate3DGen</h2>
+    <div class="publication-gallery-images">
+        <figure><img src="images/gate3dgen/preview.gif" alt="Gate3DGen animation comparing direct and gated 3D generation" loading="lazy"></figure>
+    </div>
+</dialog>
 <dialog id="dreamdissector_dialog" class="publication-gallery publication-gallery-single" aria-labelledby="dreamdissector_gallery_title" onclick="if (event.target === this) this.close()">
     <form method="dialog"><button class="publication-gallery-close" aria-label="Close image viewer">&times;</button></form>
     <h2 id="dreamdissector_gallery_title">DreamDissector</h2>
     <div class="publication-gallery-images">
-        <figure><img src="images/dreamdissector/teaser.jpg" alt="DreamDissector teaser showing independently editable 3D objects"></figure>
+        <figure><img src="images/dreamdissector/preview.gif" alt="DreamDissector animation showing an astronaut and kangaroo disentangled into independently editable 3D objects"></figure>
     </div>
 </dialog>
-<dialog id="cvpr_3dobjnav_dialog" class="publication-gallery" aria-labelledby="cvpr_3dobjnav_gallery_title" onclick="if (event.target === this) this.close()">
+<dialog id="cvpr_3dobjnav_dialog" class="publication-gallery publication-gallery-single" aria-labelledby="cvpr_3dobjnav_gallery_title" onclick="if (event.target === this) this.close()">
     <form method="dialog"><button class="publication-gallery-close" aria-label="Close image viewer">&times;</button></form>
     <h2 id="cvpr_3dobjnav_gallery_title">3D-Aware Object Goal Navigation</h2>
     <div class="publication-gallery-images">
-        <figure>
-            <img src="images/cvpr23_3dobjnav/3dobjnav.png" alt="Static figure for 3D-Aware Object Goal Navigation">
-        </figure>
         <figure>
             <img src="images/cvpr23_3dobjnav/3dobjnav.gif" alt="Animated demonstration of 3D-Aware Object Goal Navigation">
         </figure>
@@ -141,13 +189,13 @@
     <h2>Career</h2>
     <ul>
         <li style="padding-top: 10px;">
-            Engineer, <a href="https://consumer.huawei.com/en/" target="_blank" rel="external">Consumer Business Group</a>, <a href="https://www.huawei.com/en/" target="_blank" rel="external"><b>Huawei</b></a><br>
+            Engineer, <a href="https://consumer.huawei.com/en/" target="_blank" rel="external">Consumer Business Group (CBG)</a>, <a href="https://www.huawei.com/en/" target="_blank" rel="external"><b>Huawei</b></a><br>
             Leader: <a href="https://jaminfong.cn/" target="_blank" rel="external">Dr. Jiemin Fang</a> and
             <a href="https://www.qitian1987.com/" target="_blank" rel="external">Dr. Qi Tian</a><br>
             2025.11 - Present, Shanghai, China
         </li>
         <li style="padding-top: 10px;">Research Intern,
-            <a href="https://cfcs.pku.edu.cn/english/" target="_blank" rel="external">Center on Frontiers of Computing Studies</a>,
+            <a href="https://cfcs.pku.edu.cn/english/" target="_blank" rel="external">Center on Frontiers of Computing Studies (CFCS)</a>,
             <a href="https://english.pku.edu.cn/" target="_blank" rel="external"><b>Peking University</b></a><br>
             Supervisor: <a href="https://jzhzhang.github.io/" target="_blank" rel="external">Dr. Jiazhao Zhang</a> &amp;
             <a href="https://hughw19.github.io/" target="_blank" rel="external">Prof. He Wang</a><br>
@@ -270,7 +318,7 @@
     <br>
     <p style="text-align:right;font-size:small;">
         This website template was borrower from <a href="https://github.com/jonbarron/jonbarron_website">Dr. Jon Barron</a>. <br>
-        Last updated on Oct. 15, 2026.
+        Last updated on Oct. 23, 2026.
       </p>
     </td>
 </tr>

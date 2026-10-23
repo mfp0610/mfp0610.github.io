@@ -148,19 +148,6 @@ h2 {
   height: 120px;
 }
 
-.publication-preview-animated {
-  position: absolute;
-  top: 0;
-  left: 0;
-  opacity: 0;
-  transition: opacity .2s ease-in-out;
-}
-
-.publication-preview:hover .publication-preview-animated,
-.publication-preview:focus-visible .publication-preview-animated {
-  opacity: 1;
-}
-
 .profile-preview:focus-visible,
 .publication-preview:focus-visible {
   outline: 2px solid #1772d0;
@@ -232,8 +219,14 @@ span.highlight {
   background-color: #ffffd0;
 }
 
-@media (min-width: 900px) {
-  .intro-school {
-    white-space: nowrap;
-  }
+.publication-highlight > td {
+  background-color: #ffffd0;
+}
+
+.publication-preview-video {
+  background-color: #0d0f10;
+}
+
+.publication-preview-video img {
+  object-fit: contain;
 }
