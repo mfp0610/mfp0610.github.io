@@ -1,0 +1,21 @@
+Project: https://zanue.github.io/proxyup/
+Paper: https://arxiv.org/abs/2607.03732
+Code: https://github.com/Zanue/ProxyUp
+
+Official gallery videos; original synchronized proxy inset retained in the upper-right corner.
+Only an Input proxy label is added below the inset. No generated content is altered.
+All clips retain their full 832 x 480 source frame, without padding or letterboxing.
+
+Bread slicing: https://zanue.github.io/proxyup/assets/videos/demos_small_proxy_blender_part03.mp4
+Selected interval: 0.000 - 5.000 seconds.
+Opening curtains: https://zanue.github.io/proxyup/assets/videos/demos_small_proxy_blender_part02.mp4
+Selected interval: 0.000 - 5.000 seconds.
+Falling books: https://zanue.github.io/proxyup/assets/videos/demos_small_proxy_blender_part05.mp4
+Selected interval: 0.000 - 3.000 seconds.
+Newton's cradle: https://zanue.github.io/proxyup/assets/videos/demos_small_proxy_blender_part01.mp4
+Selected interval: 0.000 - 5.000 seconds.
+
+Output: 640 x 369, 12 fps (GIF frame delays alternate 80/90 ms), 216 frames, 18 seconds, infinite loop.
+Homepage thumbnail and enlarged viewer both use preview.gif.
+preview.jpg is a saved still only; it is not displayed separately on the homepage.
+method.png is retained as a static reference, from https://zanue.github.io/proxyup/assets/images/method.png

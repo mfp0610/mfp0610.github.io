@@ -130,6 +130,25 @@
 </td>
 </tr>
 
+<!--PUB: [arXiv26] ProxyUp-->
+<tr>
+<td style="padding:20px;width:30%;vertical-align:middle">
+    <button type="button" class="publication-preview publication-preview-video publication-preview-light" aria-label="View the ProxyUp animation" onclick="document.getElementById('proxyup_dialog').showModal()">
+        <img src="images/proxyup/preview.gif?v=20261024-multi-case" width="200" height="115" alt="ProxyUp bread slicing, curtain opening, falling books, and Newton's cradle, each with a synchronized input proxy in the upper-right corner">
+    </button>
+</td>
+<td style="padding:20px;width:70%;vertical-align:middle">
+    <span class="papertitle">ProxyUp: Training-Free Proxy-Conditioned Video Generation for Controllable Dynamics</span>
+    <br>
+        Zanwei Zhou*, Jiazhong Cen*, Jiemin Fang<sup>†</sup>, Yumeng He, Chen Yang, Sikuang Li, <strong>Fanpeng Meng</strong>, Zhikuan Bao, Wei Shen<sup>†</sup>, Qi Tian<sup>†</sup>
+    <br><em>arXiv, 2026</em><br>
+    <a href="https://zanue.github.io/proxyup/" target="_blank" rel="noopener noreferrer">Webpage</a> /
+    <a href="https://arxiv.org/abs/2607.03732" target="_blank" rel="noopener noreferrer">Paper</a> /
+    <a href="https://github.com/Zanue/ProxyUp" target="_blank" rel="noopener noreferrer">Code</a>
+    <p>Generating videos with controllable dynamics from coarse proxies and text prompts, preserving motion and interactions without additional training.</p>
+</td>
+</tr>
+
 </tbody></table>
 <div id="research_archive" class="research-archive" hidden>
     <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
@@ -189,6 +208,13 @@
     <h2 id="gate3dgen_gallery_title">Gate3DGen</h2>
     <div class="publication-gallery-images">
         <figure><img src="images/gate3dgen/preview.gif?v=20261024-corner-inputs" alt="Four Gate3DGen comparisons with enlarged 3D results and corresponding input images in the upper-left corners" loading="lazy"></figure>
+    </div>
+</dialog>
+<dialog id="proxyup_dialog" class="publication-gallery publication-gallery-single" aria-labelledby="proxyup_gallery_title" onclick="if (event.target === this) this.close()">
+    <form method="dialog"><button class="publication-gallery-close" aria-label="Close image viewer">&times;</button></form>
+    <h2 id="proxyup_gallery_title">ProxyUp</h2>
+    <div class="publication-gallery-images">
+        <figure><img src="images/proxyup/preview.gif?v=20261024-multi-case" alt="ProxyUp bread slicing, curtain opening, falling books, and Newton's cradle, each with a synchronized input proxy in the upper-right corner" loading="lazy"></figure>
     </div>
 </dialog>
 <dialog id="dreamdissector_dialog" class="publication-gallery publication-gallery-single" aria-labelledby="dreamdissector_gallery_title" onclick="if (event.target === this) this.close()">
