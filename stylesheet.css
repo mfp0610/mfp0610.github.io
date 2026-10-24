@@ -109,6 +109,10 @@ h2 {
   font-size: 32px;
 }
 
+.publication-resources {
+  line-height: 1.8;
+}
+
 .profile-preview,
 .publication-preview {
   display: block;

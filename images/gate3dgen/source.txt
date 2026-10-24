@@ -1,12 +1,17 @@
 Source: https://supra-3d.github.io/gate3dgen/assets/Gate3DGen%20Demo%20Video.mp4
-Two method panels, using synchronized crops from the same source frames.
-Left: degraded input in the upper-left corner with the enlarged direct 3D result.
-Right: purified input in the upper-left corner with the enlarged Gate3DGen result.
-Inputs retain the source video's degradation annotations.
-Motion-blur example crops the empty upper area; both 3D results use the same enlarged scale and placement.
-Handheld object: 44.2 - 48.3 seconds
-Color cast: 58.0 - 63.0 seconds
-Motion blur: 74.0 - 77.6 seconds
-Occlusion: 49.0 - 53.5 seconds
-Output: 768 x 432, 10 fps, 172 frames, 17.2 seconds, infinite loop.
+Original video composition retained: headings, problem annotations, input images, purified images, generation results, and workflow arrows.
+Intro explains how leaf shadows contaminate direct 3D generation, then shows Gate3DGen preprocessing and the resulting texture improvement.
+Three subsequent cases: blurred racing-car lettering (including enlarged detail), a handheld object, and a blue color cast.
+All sections keep the original black background and full source frame. No custom result panels or added letterboxing.
+
+Problem: shadow artifacts in direct generation: source 0.8 - 12.6 seconds, playback speed 2.5x.
+Gate3DGen preprocessing workflow: source 12.6 - 17.0 seconds, playback speed 1.5x.
+Direct and gated generation comparison: source 17.0 - 27.8 seconds, playback speed 3x.
+Shadow artifacts: close comparison: source 27.8 - 33.7 seconds, playback speed 2x.
+Blur: racing-car lettering: source 34.1 - 42.7 seconds, playback speed 1.2x.
+Handheld object: source 43.6 - 48.5 seconds, playback speed 1x.
+Color cast: source 58.0 - 63.4 seconds, playback speed 1x.
+
+Output: 960 x 540, 12 fps, 380 frames, 31.66 seconds, infinite loop.
 Homepage thumbnail and enlarged viewer use the same GIF.
+preview.jpg is retained as a static reference only and is not displayed on the page.
