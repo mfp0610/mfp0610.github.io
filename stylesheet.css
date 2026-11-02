@@ -109,6 +109,23 @@ h2 {
   font-size: 32px;
 }
 
+.publication-authors {
+  margin-top: 2px;
+  line-height: 1.25;
+}
+
+.publication-author {
+  white-space: nowrap;
+}
+
+.publication-authors sup {
+  position: relative;
+  top: -0.45em;
+  font-size: 75%;
+  line-height: 0;
+  vertical-align: baseline;
+}
+
 .publication-resources {
   line-height: 1.8;
 }

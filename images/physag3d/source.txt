@@ -1,0 +1,28 @@
+PhysAg3D compact annotated homepage preview
+Official project: https://supra-3d.github.io/PhysAg3D/
+
+Composition: 16:9. Persistent project name only; the small paper subtitle has been removed.
+Only short Input image / 3D labels accompany the appearance comparison.
+No added section banners, object names, action explanations, or footer text.
+Robot footage retains the original film composition, input-image insets, and object names. The smaller baked-in action explanations have been removed.
+Caption cleanup is limited to the small explanation line (source y=952-992); original object names and action footage are retained. Bright caption strokes are isolated and locally restored before scaling.
+
+Appearance source:
+https://supra-3d.github.io/PhysAg3D/assets/hero/overview-48s-20261028.mp4
+Camera: 0.4-10.9 seconds, 1.7x playback.
+Input: assets/generated-latest/img_145/input.png
+Globe: 20.9-29.6 seconds, 1.5x playback.
+Input: assets/generated-latest/img_110/input/source.png
+The corresponding original input photos are shown next to the generated 3D assets.
+
+Robot source:
+https://supra-3d.github.io/PhysAg3D/assets/film-final-20261028.mp4
+Printer: 25.5-29.8 seconds, original playback speed.
+Adjustable lamp: 35.9-40.7 seconds, original playback speed.
+Suitcase: 66.5-76.0 seconds, 1.5x playback.
+These are the official film's rendered/scripted Franka Panda demonstrations.
+No extra robot action captions are added.
+
+Output: preview.gif, 768 x 432, 274 frames, 27.40 seconds, 10 fps, infinite loop.
+The thumbnail and enlarged viewer use the same animation.
+preview.jpg is a static reference only.
